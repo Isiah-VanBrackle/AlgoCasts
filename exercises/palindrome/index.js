@@ -9,8 +9,8 @@
 
 function palindrome(str) {
   const reversed = str.split('').reverse().join('');
-
-  return str === reversed;
+  // take the user's string split it into different characters, reverse their order and rejoin them.
+  return str === reversed; // then return the boolean value (true or false )
 }
 
 module.exports = palindrome;
