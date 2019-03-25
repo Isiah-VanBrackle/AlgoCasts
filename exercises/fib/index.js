@@ -18,4 +18,12 @@ function fib(n) {
   return fibonacci[fibonacci.length - 1] // since we continue the loop until n is hit. we can now return the element we want.
 }
 
+// function recursiveFib(n) {
+//   if(n<2){
+//     return n
+//   }
+//   return recursiveFib(n-1) + recursiveFib(n-2);
+// }
+
+
 module.exports = fib;
